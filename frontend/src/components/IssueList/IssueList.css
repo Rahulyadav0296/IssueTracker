@@ -1,0 +1,106 @@
+.issue-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 25px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.issue-card {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: rgba(5, 5, 31, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.issue-title,
+.issue-owner,
+.issue-status,
+.issue-date,
+.issue-effort,
+.issue-due-date {
+  margin: 10px 0;
+}
+
+.issue-input,
+.issue-select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  margin-top: 5px;
+}
+
+.issue-input:disabled,
+.issue-select:disabled {
+  background-color: #e9ecef;
+}
+
+.issue-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.issue-delete-button {
+  display: inline-block;
+  background-color: #f33636;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.issue-delete-button:hover {
+  background-color: #86100c;
+}
+
+.issue-save-button,
+.issue-edit-button {
+  display: inline-block;
+  background-color: #06865c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.issue-save-button:hover,
+.issue-edit-button:hover {
+  background-color: #10a8a1;
+}
+
+.no-issues-text,
+.loading-text,
+.error-text {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.error-text {
+  color: red;
+}
+
+.loading-text {
+  color: #6c757d;
+}
+
+@media (max-width: 1153px) {
+  .issue-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

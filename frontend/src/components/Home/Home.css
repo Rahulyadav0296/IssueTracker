@@ -1,0 +1,59 @@
+/* Container for the entire issue tracker */
+.issue-tracker-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header section of the issue tracker */
+.issue-tracker-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.issue-tracker-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.issue-tracker-divider {
+  border: 0;
+  border-top: 2px solid #007bff;
+  margin: 10px 0;
+}
+
+/* Button for adding a new issue */
+.issue-add-button {
+  padding: 10px 20px;
+  background-color: #043949;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.issue-add-button:hover {
+  background-color: #062f5a;
+}
+
+/* Style for the IssueFilter component */
+.issue-filter {
+  margin-bottom: 20px;
+}
+
+/* Style for the IssueList component */
+.issue-list {
+  margin-top: 20px;
+}
+
+/* Style for messages */
+.issue-message {
+  color: #d9534f;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}

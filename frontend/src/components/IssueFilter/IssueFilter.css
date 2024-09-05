@@ -1,0 +1,50 @@
+/* Container for the search bar and button */
+.issue-filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.issue-filter-form {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Input styling */
+.issue-filter-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.issue-filter-input:focus {
+  border-color: #06101b;
+}
+
+/* Button styling */
+.issue-filter-button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #0d1d2e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.issue-filter-button:hover {
+  background-color: #0056b3;
+}

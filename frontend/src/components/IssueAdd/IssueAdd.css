@@ -1,0 +1,87 @@
+.issue-add-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.issue-add-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.issue-add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.issue-add-input,
+.issue-add-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.issue-add-select {
+  background-color: #fff;
+}
+
+.issue-add-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.issue-add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .issue-add-title {
+    font-size: 1.2em;
+  }
+
+  .issue-add-input,
+  .issue-add-select {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .issue-add-button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .issue-add-title {
+    font-size: 1em;
+  }
+
+  .issue-add-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .issue-add-input,
+  .issue-add-select {
+    font-size: 0.8em;
+    padding: 6px;
+  }
+
+  .issue-add-button {
+    font-size: 0.8em;
+    padding: 6px;
+  }
+}
